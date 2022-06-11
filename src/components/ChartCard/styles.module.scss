@@ -1,0 +1,44 @@
+.chartCardContainer {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  width: calc(33.33% - 16px);
+  border: 2px solid #e5e4dc;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+}
+
+.chartWrapper {
+  margin-top: -40px;
+  border-radius: 5px;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 24px;
+  margin: 15px 0;
+  color: #7c857f;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin: 15px 0;
+  color: #9fa9a3;
+}
+
+.date {
+  padding-top: 10px;
+  border-top: 1px solid #EEEDE7;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+  color: #9fa9a3;
+  font-size: 12px;
+}
+
+.icon {
+  width: 16px;
+}

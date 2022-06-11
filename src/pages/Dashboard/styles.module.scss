@@ -1,0 +1,18 @@
+.dashboardContainer {
+  background-color: #EEEDE7;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 24px;
+  padding: 50px 24px;
+  flex-wrap: wrap;
+
+  @media (max-width: 1200px) {
+    gap: 50px;
+  }
+}
+
+.icon {
+  width: 40px;
+}
